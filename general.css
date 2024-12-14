@@ -1,0 +1,9 @@
+.mobile {
+    display: none;
+}
+
+/* if mobile device max width 480px */
+@media (max-aspect-ratio: 10/9) {
+   .mobile{display: block;}
+   .desktop {display: none;}
+}
